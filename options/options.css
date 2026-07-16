@@ -1,0 +1,71 @@
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 560px;
+  margin: 24px auto;
+  color: #222;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.hint {
+  font-size: 13px;
+  color: #666;
+  margin-top: 0;
+}
+
+section {
+  margin-bottom: 28px;
+}
+
+#link-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0;
+}
+
+.link-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.link-label {
+  flex: 1;
+}
+
+.link-row button {
+  width: 28px;
+  cursor: pointer;
+}
+
+#overpass-server {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 8px;
+  font-size: 14px;
+}
+
+#save-button {
+  padding: 8px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  background: #1e825c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+#status {
+  margin-left: 12px;
+  color: #1e825c;
+  font-size: 13px;
+}

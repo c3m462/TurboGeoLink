@@ -1,0 +1,19 @@
+.ot-extra-links {
+  margin: 8px 0 0;
+  padding: 8px 0 0;
+  border-top: 1px solid #ddd;
+  list-style: none;
+}
+
+.ot-extra-links li {
+  margin: 2px 0;
+}
+
+.ot-extra-links a {
+  color: #1e825c;
+  text-decoration: none;
+}
+
+.ot-extra-links a:hover {
+  text-decoration: underline;
+}
